@@ -1,0 +1,29 @@
+canvas {
+    border: 5px solid black;
+}
+
+#btns_div {
+    position: relative;
+    width: 640px;
+    height: 32px;
+    align-content: center;
+    align-items: center;
+}
+
+div.algo_btns{
+    vertical-align: top;
+    float: left;
+}
+
+div.canvas_btns{
+    vertical-align: top;
+    float: right;
+}
+
+#nodes_count {
+    vertical-align: top;
+    top: 0;
+    position: static;
+    width: 20px;
+    height: 26px;
+}

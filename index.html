@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jarvis Algorithm</title>	
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="btns_div">
+        <div class="algo_btns">
+            <img src="imgs/start_green.png" class="button algo_btn" id="btn_work" alt="Start the algorithm">
+            <img src="imgs/stop_red.png" id="btn_stop">
+            <img src="imgs/next_blue.png" id="btn_next_step" >
+        </div>
+        <div class="canvas_btns">
+            <span>
+				speed:
+				<input type="range" min="1" max = "10" step="1" value="5" id="speed" title="Speed">
+			</span>
+            <input type="text" id="nodes_count" value="">
+            <img src="imgs/random_black.png" class="button graph_btn" id="btn_create_random_nodes" title="Create random nodes (<=100)">
+			<img src="imgs/delete_black.ico" id="btn_delete_nodes" title="Delete node">
+            <img src="imgs/view_black.png" id="btn_view" title="Move node">
+            <img src="imgs/create_black.png" id="btn_create_node" title="Create new node">
+            <img src="imgs/clear_black.png" id="btn_clear_canvas" title="Delete all nodes">
+        </div>
+    </div>
+
+    <canvas id="canvas" width="640" height="480"> </canvas>
+    <h3>Info</h3>
+    <p id="info_field">Welcome to Jarvis Visualisation!<br />
+        You can enter the number of points for the Random button (R)<br />
+        or place it in the configuration of interest to you by adding the (+) button</p>
+</body>
+</html>
