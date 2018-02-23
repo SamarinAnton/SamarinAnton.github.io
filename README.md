@@ -1,2 +1,1 @@
-# SamarinAnton.github.io
-Visualization of the Jarvis algorithm
+[Visualization of the Jarvis algorithm](https://samarinanton.github.io/)
